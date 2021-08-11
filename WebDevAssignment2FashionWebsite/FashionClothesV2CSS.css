@@ -1,0 +1,75 @@
+body{
+    background-color: beige;
+}
+a{
+    font-size: 25px;
+}
+a:link{
+    color:blue;
+    text-decoration: none;
+}
+a:visited{
+    color: purple;
+    text-decoration: none;
+}
+#header{
+    background-color: white;
+    display: grid;  
+    grid-template-columns: 30% 70%;
+    border: 2px solid black;
+}
+#fashImg{
+    width: 100px;
+    height: 100px;
+}
+#h1{
+    font-family: fantasy;
+    font-size: 100px;
+    color: grey;
+    margin-top:0;
+    margin-bottom: 0;
+}
+marquee{
+    font-size: 50px;
+    background-color: grey;
+    color: beige;
+    border: 2px solid black;
+    margin: 20px 0px 20px 0px;
+}
+#youtube{
+    background-image: url(summer.jpg);
+    text-align: center;
+}
+.bodyHeader{
+    text-align: center;
+    font-size: 70px;
+    font-family: fantasy;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+div p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+}
+#bodyContent{
+    text-align: center;
+}
+#footer-container{
+    background-color: white;
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+.footerCont{
+    text-align: center;
+    font: 50px;
+}
+#socialsCol{
+    text-align: right;
+}
+.socials{
+    width: 70px;
+    height: auto;
+}

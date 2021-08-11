@@ -1,0 +1,75 @@
+body{
+    background-color: beige;
+}
+a{
+    font-size: 25px;
+}
+a:link{
+    color:blue;
+    text-decoration: none;
+}
+a:visited{
+    color: purple;
+    text-decoration: none;
+}
+#header{
+    background-color: white;
+    display: grid;  
+    grid-template-columns: 30% 70%;
+    border: 2px solid black;
+}
+#fashImg{
+    width: 100px;
+    height: 100px;
+}
+#h1{
+    font-family: fantasy;
+    font-size: 100px;
+    color: grey;
+    margin-top:0;
+    margin-bottom: 0;
+}
+#h2{
+    font-family: fantasy;
+    text-align: center;
+    font-size: 70px;
+    color:rgb(187, 132, 29);
+    background-image: url(Summer.jpg);
+}
+#grid{
+    display: grid;
+    grid-template-columns: repeat(3,33%);
+    text-align: center;
+    font-size: 20px;
+    gap: 20px;
+}
+.i1{
+    width: 400px;
+    height: auto;
+}
+#footer-container{
+    background-color: white;
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+.footerCont{
+    text-align: center;
+    font: 50px;
+}
+#socialsCol{
+    text-align: right;
+}
+.socials{
+    width: 70px;
+    height: auto;
+}
+div>a>img{
+    transition: width 2s, height 2s;
+}
+div>a>img:hover{
+    width: 500px;
+    height: auto;
+}

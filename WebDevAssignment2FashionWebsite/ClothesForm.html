@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClothesForm</title>
+    <link href="ClothesFormCSS.css" rel="stylesheet">
+</head>
+<body>
+    <div class="header whiteBackground solidBlackBorder">
+        <a href="FashionClothesV2.html">
+            <img src="FashionIcon.png" width="100px" height="auto">
+        </a>
+        <h1 id="h1">Fashion Clothes</h1>
+    </div>
+    <br>
+    <form action="C:\Users\Xavier\Desktop\Java Training\Web Development\Assignment 2 - Fashion Website\FashionClothesHomePage.html" target="_blank" method="POST" name="ClothesForm">
+        <fieldset>
+            <legend>Basic Information</legend>
+            <label>First Name:</label>
+            <input type="text" name="fName" required tabindex="1"><br><br>
+            <label>Last Name:</label>
+            <input type="text" name="lName"><br><br>
+            <label>Email</label>
+            <input type="email" name="email" required tabindex="2" placeholder="xxx@xxx.com"><br><br>
+            <label>Password</label>
+            <input type="password" name="password" required tabindex="3"><br><br>
+            <label>Gender</label>
+            <input type="radio" name="Gender">
+            <label>Male</label>
+            <input type="radio" name="Gender">
+            <label>Female</label><br><br>
+            <label>Date of birth</label>
+            <input type="date"><br><br>
+            <label>Contact Number</label>
+            <input type="tel" required><br><br>
+            <label>Country</label>
+            <select>
+                <option value="Singapore">Singapore</option>
+                <option value="Malaysia">Malaysia</option>
+            </select><br><br>
+            <label>Address</label>
+            <input type="text" name="address" size="100" required>
+            <label></label><br><br>
+            <label>Required Documents</label>
+            <input type="file" name="relevantDoc" multiple>
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <legend>Additional Information</legend>
+            <label>Socials</label>
+            <input type="url" placeholder="facebook.com/tom"><br><br>
+            <label>Favourite Colour</label>
+            <input type="color" name="favCol"><br><br>
+            <label>Taste and Preferences</label><br><br>
+            <fieldset>
+                <input type="checkbox" name="Shirt">
+                <label>Shirt</label>
+                <input type="checkbox" name="Shorts">
+                <label>Shorts</label>
+                <input type="checkbox" name="Trousers">
+                <label>Trousers</label>
+                <input type="checkbox" name="Jeans">
+                <label>Jeans</label>
+            </fieldset><br><br>
+            <label>Rate your experience</label>
+            <input type="range" name="exprange" min="0" max="100"><br><br>
+            <label>Feedback</label><br>
+            <textarea rows="15" cols="40">
+            </textarea>
+        </fieldset><br><br>
+        <div style="text-align:center">
+            <input type="submit" name="submitButton">
+            <input type="reset" name="resetButton">
+        </div>
+    </form>
+</body>
+</html>
