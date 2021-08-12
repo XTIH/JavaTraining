@@ -1,0 +1,43 @@
+@charset "ISO-8859-1";
+body{
+	 background-color: beige;
+}
+h1{
+	font-family: fantasy;
+	font-size: 100px;
+	text-align: center;
+	background-color: white;
+	color: grey;
+	border: 2px solid black;
+}
+legend{
+    font-size: 20px;
+    border: 2px solid black;
+    color: white;
+    background-color: grey;
+}
+a{
+	color: blue;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+a:visited{
+	color: purple;
+}
+a:active{
+	color: yellow;
+}
+#loginLink{
+	text-align: center;
+}
+.register{
+	text-align: center;
+}
+button{
+	color: beige;
+	background-color: grey;
+	font-size: 15px;
+	width: 10%;
+}

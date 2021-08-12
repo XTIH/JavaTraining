@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Transaction</title>
+<link href="Transfer.css" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<div>ABC Bank</div>
+		<div id="nav">
+			<a class="navBar" href="/BankingApp/UserHome.jsp">Home</a>
+			<div class="divder"> | </div>
+			<a class="navBar" href="/BankingApp/Profile.html">Profile</a>
+			<div class="divder"> | </div>
+			<a class="navBar" href="Logout">Log Out</a>
+		</div>
+	</header>
+	<form action="Transfer">
+		<fieldset>
+			<legend>Transaction Details</legend>
+			<label>Account Number of recipient: </label>
+			<input type="text" name="accountID"><br><br>
+			<label>Amount to transfer: </label>
+			<input type="text" name="amount"><br><br>
+		</fieldset><br><br>
+		<div id="transferDiv">
+			<button type="submit" id="transferBtn">Transfer</button>
+		</div>
+	</form>
+</body>
+</html>
